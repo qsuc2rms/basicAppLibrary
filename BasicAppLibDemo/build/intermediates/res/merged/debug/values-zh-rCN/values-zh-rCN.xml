@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/res/values-zh-rCN/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"通过%s分享"</string>
+    <!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/src/main/res/values-zh-rCN/string.xml -->
+    <eat-comment/>
+    <string name="action_settings">设置</string>
+    <string name="app_name">BasicAppLib使用范例</string>
+    <string name="btn_globalErr">全局异常捕捉</string>
+    <string name="btn_showEventBus">演示事件总线</string>
+    <string name="btn_showView">使用自定义控件</string>
+    <string name="btn_useHttpHandler">使用Http请求</string>
+    <string name="btn_useLogEntity">使用实例化log</string>
+    <string name="btn_useStaticLog">使用静态log</string>
+    <!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/build/intermediates/exploded-aar/BasicAppLibrary/BasicAppLib/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/src/main/res/values-zh-rCN/string.xml -->
+    <eat-comment/>
+    <string name="current_language">你好，这是中文版本!</string>
+    <!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/build/intermediates/exploded-aar/BasicAppLibrary/BasicAppLib/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="date">日</string>
+    <string name="dtpick_date">日</string>
+    <string name="dtpick_hour">时</string>
+    <string name="dtpick_minute">分</string>
+    <string name="dtpick_month">月</string>
+    <string name="dtpick_title">请选择日期和时间</string>
+    <string name="dtpick_year">年</string>
+    <string name="err_global">出错啦！我们会尽快修改！</string>
+    <string name="err_network">网络错误！</string>
+    <string name="err_network_info">网络错误，下载失败！</string>
+    <string name="err_network_title">下载失败</string>
+    <!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/src/main/res/values-zh-rCN/string.xml -->
+    <eat-comment/>
+    <string name="hello_world">你好!</string>
+    <string name="item_basicmodule">底层功能模块</string>
+    <string name="item_commonmodule">通用功能模块</string>
+    <string name="item_communicatemodule">基础通信模块</string>
+    <string name="item_showHttp">演示Http通信</string>
+    <string name="item_showbadge">演示角标控件</string>
+    <string name="item_showcalendar">演示卡片日历</string>
+    <string name="item_showcharts">演示图表绘制</string>
+    <string name="item_showcrop">演示图片剪裁</string>
+    <string name="item_showdatetimepicker">日期时间选择</string>
+    <string name="item_showeventbus">演示事件通信总线</string>
+    <string name="item_showfileupload">演示文件上传</string>
+    <string name="item_showglobalerr">演示全局异常捕捉</string>
+    <string name="item_showgson">演示GSON转换</string>
+    <string name="item_showhori">横向特种布局</string>
+    <string name="item_showloadimage">演示图片加载</string>
+    <string name="item_showlog">演示日志记录</string>
+    <string name="item_showmultilanguage">演示多语言版本</string>
+    <string name="item_shownetstatus">演示网络状态监控</string>
+    <string name="item_showprogressbar">演示进度条</string>
+    <string name="item_showptr">演示下拉刷新</string>
+    <string name="item_showqrscan">演示扫码识别</string>
+    <string name="item_showspecialui">部分特殊控件</string>
+    <string name="item_showupdate">演示软件版本更新</string>
+    <string name="item_uimodule">常用界面模块</string>
+    <!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/build/intermediates/exploded-aar/BasicAppLibrary/BasicAppLib/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="lib_name">BasicAppLib</string>
+    <string name="month">月</string>
+    <!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/src/main/res/values-zh-rCN/string.xml -->
+    <eat-comment/>
+    <string name="multi_language_desc">该页面将根据系统当前的语言版本自动切换，原理是根据系统环境自动选择对应的资源文件，本Demo的文字资源在values和values-zh-rCN中；默认资源文件为英文，如无匹配资源，将使用默认的英文。资源文件配置方位为：File--New Android XML File--ResourceType:Values--Select Region and Language</string>
+    <!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/build/intermediates/exploded-aar/BasicAppLibrary/BasicAppLib/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="outoftime">操作超时!</string>
+    <!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/src/main/res/values-zh-rCN/string.xml -->
+    <eat-comment/>
+    <string name="scan_tips">将二维码图片对准扫描框即可自动扫描</string>
+    <string name="sel_date">请选择日期: %s</string>
+    <!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/build/intermediates/exploded-aar/BasicAppLibrary/BasicAppLib/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="soft_update_cancel">取消</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_update_no">已经是最新版本</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_updating">正在更新</string>
+    <!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/src/main/res/values-zh-rCN/string.xml -->
+    <eat-comment/>
+    <string name="title_activity_second">事件总线演示</string>
+    <!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/build/intermediates/exploded-aar/BasicAppLibrary/BasicAppLib/unspecified/res/values-zh-rCN/values-zh-rCN.xml -->
+    <eat-comment/>
+    <string name="year">年</string>
+</resources>

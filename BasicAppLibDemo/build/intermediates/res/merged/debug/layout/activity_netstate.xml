@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginRight="5dip"
+            android:layout_marginTop="5dip"
+            android:text="手机当前联网状态为：" />
+
+        <TextView
+            android:id="@+id/txt_netstate"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginTop="5dip"
+            android:text="NetState" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_netstate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dip"
+        android:text="实时监控手机的联网状态，能指示已断网、已联网；如已联网，能指示WIFI还是Mobile3/4G联网。可通过设置手机网络进行测试。需要在MainActivity中注册网络监听" />
+
+</LinearLayout><!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/src/main/res/layout/activity_netstate.xml -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 竖排文字 -->
+    <declare-styleable name="MyImageView">
+        <attr name="Text" format="reference|string"></attr>
+        <attr name="Oriental">
+            <enum name="Horizontal" value="1"></enum>
+            <enum name="Vertical" value="0"></enum>
+        </attr>
+        <attr name="Src" format="reference|integer"></attr>
+    </declare-styleable>
+    <!-- 圆形图片 -->
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+    <!-- 裁剪图片 -->
+    <declare-styleable name="CropImageView">
+        <attr name="guidelines">
+            <enum name="on" value="2" />
+            <enum name="onTouch" value="1" />
+            <enum name="off" value="0" />
+        </attr>
+        <attr name="fixAspectRatio" format="boolean" />
+        <attr name="aspectRatioX" format="integer" />
+        <attr name="aspectRatioY" format="integer" />
+        <attr name="imageResource" format="reference" />
+    </declare-styleable>
+
+</resources>

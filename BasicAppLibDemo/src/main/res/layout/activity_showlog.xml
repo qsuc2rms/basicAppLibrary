@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.harvic.try_eventbus_1.SecondActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_showStaticLog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="输出静态日志" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="可直接调用静态函数，但不能记录所在的类;点击该按钮后，在手机BapDemo/bap_log中记录日志(在MyApplication中设置文件目录)，如果联机调试，还能在logcat中记录日志" />
+
+                        <Button
+                android:id="@+id/btn_showDynamicLog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="输出动态日志" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="需要先创建一个实例，通过实例记录日志，能记录所在的类;点击该按钮后，在手机BapDemo/bap_log中记录日志(在MyApplication中设置文件目录)，如果联机调试，还能在logcat中记录日志" />
+           
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

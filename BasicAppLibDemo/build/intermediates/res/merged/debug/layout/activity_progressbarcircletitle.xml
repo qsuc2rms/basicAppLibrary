@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请注意右上角的进度条，进度条必须在创建时定义" />
+
+    <Button
+        android:id="@+id/btn_showprogresscircle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="隐藏进度条" />
+
+</LinearLayout><!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/src/main/res/layout/activity_progressbarcircletitle.xml -->

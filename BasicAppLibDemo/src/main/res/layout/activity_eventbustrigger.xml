@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.harvic.try_eventbus_1.SecondActivity" >
+
+    <Button
+        android:id="@+id/btn_first_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First Event" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="发送方无操作，但接收方仅在MainThread中注册了接收" />
+
+    <Button
+        android:id="@+id/btn_second_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Event" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="发送方无操作，但接收方在4种方式中都注册了接收" />
+
+    <Button
+        android:id="@+id/btn_third_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Third Event" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="发送方无操作，但接收方仅onEvnet种方式中都注册了接收" />
+
+</LinearLayout>

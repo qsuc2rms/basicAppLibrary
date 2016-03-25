@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="reveal_color">#1b000000</color>
+    <color name="black_translucent">#50000000</color>
+    <color name="grid_bg">#FFFFFFFF</color>
+    <color name="grid_border">#FFC6C6C6</color>
+    <color name="stroke">#dddddd</color>
+
+</resources>

@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.harvic.try_eventbus_1.SecondActivity" >
+
+    <Button
+        android:id="@+id/btn_opentrigger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转至消息发送页面" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="必须先跳转至消息发送页面，从那里发出消息，然后再回到本页面查看数据辩护" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="在普通onEvent中接收:(在当前发布事件的线程执行)" />
+
+    <TextView
+        android:id="@+id/txt_onEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="在MainThread中接收:(会在UI线程执行)" />
+
+    <TextView
+        android:id="@+id/txt_onEventMainThread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="在BackgroundThread中接收:(非UI线程发布的事件，则直接执行;如果在UI线程发布的事件，则加入到一个后台的单线程队列中去)" />
+
+    <TextView
+        android:id="@+id/txt_onEventBackgroundThread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="在Async中接收:(直接在独立的线程中执行)" />
+
+    <TextView
+        android:id="@+id/txt_onEventAsync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout><!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/src/main/res/layout/activity_eventbus.xml -->

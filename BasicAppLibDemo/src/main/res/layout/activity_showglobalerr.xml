@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_showGlobalErr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="演示全局异常捕捉" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="点击按钮后，会生成一个未捕获的异常，将自动重启App，并向日志文件（BapDemo/bap_log）中记录异常详情，在联机调试时，也可以从LogCat中看到异常内容" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

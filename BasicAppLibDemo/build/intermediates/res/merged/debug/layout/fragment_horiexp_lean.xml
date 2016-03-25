@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_lean_background"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:background="@color/red"
+        android:orientation="horizontal" >
+
+
+    </LinearLayout>
+
+
+</LinearLayout><!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/src/main/res/layout/fragment_horiexp_lean.xml -->

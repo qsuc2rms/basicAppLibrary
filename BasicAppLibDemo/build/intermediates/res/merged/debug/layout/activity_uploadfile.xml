@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_filename"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dip"
+        android:text="File Name:" />
+
+    <TextView
+        android:id="@+id/txt_filename2"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dip"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txt_filename3"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dip"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_choosefile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="Choose File" />
+
+    <Button
+        android:id="@+id/btn_uploadfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="Upload File" />
+
+    <ImageView
+        android:id="@+id/img_uploadfile"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="5dip"
+        android:src="@drawable/ic_imageloading" />
+
+</LinearLayout><!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/src/main/res/layout/activity_uploadfile.xml -->

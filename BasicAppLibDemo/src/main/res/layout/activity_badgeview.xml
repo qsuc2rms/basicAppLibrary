@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.harvic.try_eventbus_1.SecondActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="BadgeView可看做一种特殊的TextView，使用非常简单，几乎适用于所有显示控件" />
+
+            <com.baplib.ui.view.BadgeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dip"
+                android:text="This is a default BadgeView" />
+
+            <ImageView
+                android:id="@+id/img_badge"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="5dip"
+                android:src="@drawable/ic_launchernew" />
+
+            <LinearLayout
+                android:id="@+id/lay_badge"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dip"
+                android:background="@color/lightgreen"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Badge on a Linearlayout" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dip"
+                    android:text="默认角标为红底白字" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/lay_badge2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dip"
+                android:background="@color/lightgreen" >
+
+                <TextView
+                    android:id="@+id/txt_badge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Badge on a Relativelayout" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="3dip"
+                    android:text="可设置背景，更改位置" />
+            </RelativeLayout>
+
+            <FrameLayout
+                android:id="@+id/lay_badge3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dip"
+                android:background="@color/lightgreen" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Badge on a Framelayout" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:text="还可以设置字体，更改背景色" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/btn_badge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="Badge on a Button" />
+
+            <Button
+                android:id="@+id/btn_badgeMove"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="A Shaking Badge" />
+
+            <Button
+                android:id="@+id/btn_badgeIncrement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="Increment a Badge" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

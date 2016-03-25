@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BasicAppLib使用范例</string>
+    <string name="hello_world">你好!</string>
+    <string name="action_settings">设置</string>
+    
+    <string name="item_basicmodule">底层功能模块</string>
+    <string name="item_commonmodule">通用功能模块</string>
+    <string name="item_communicatemodule">基础通信模块</string>
+    <string name="item_uimodule">常用界面模块</string>
+    <string name="item_showlog">演示日志记录</string>
+    <string name="item_showglobalerr">演示全局异常捕捉</string>
+    <string name="item_showmultilanguage">演示多语言版本</string>
+    <string name="item_showgson">演示GSON转换</string>
+    <string name="item_showupdate">演示软件版本更新</string>
+    <string name="item_showqrscan">演示扫码识别</string>
+    <string name="item_showeventbus">演示事件通信总线</string>
+    <string name="item_shownetstatus">演示网络状态监控</string>
+    <string name="item_showfileupload">演示文件上传</string>
+    <string name="item_showHttp">演示Http通信</string>
+    <string name="item_showdatetimepicker">日期时间选择</string>
+    <string name="item_showprogressbar">演示进度条</string>
+    <string name="item_showloadimage">演示图片加载</string>
+    <string name="item_showptr">演示下拉刷新</string>
+    <string name="item_showcharts">演示图表绘制</string>
+    <string name="item_showcrop">演示图片剪裁</string>
+    <string name="item_showspecialui">部分特殊控件</string>
+    <string name="item_showcalendar">演示卡片日历</string>
+    <string name="item_showbadge">演示角标控件</string>
+    <string name="item_showhori">横向特种布局</string>
+    
+    
+    <string name="title_activity_second">事件总线演示</string>
+    <string name="btn_showView">使用自定义控件</string>
+    <string name="btn_useLogEntity">使用实例化log</string>
+    <string name="btn_useStaticLog">使用静态log</string>
+    <string name="btn_globalErr">全局异常捕捉</string>
+    <string name="btn_useHttpHandler">使用Http请求</string>
+    <string name="btn_showEventBus">演示事件总线</string>
+    <string name="current_language">你好，这是中文版本!</string>
+    <string name="multi_language_desc">该页面将根据系统当前的语言版本自动切换，原理是根据系统环境自动选择对应的资源文件，本Demo的文字资源在values和values-zh-rCN中；默认资源文件为英文，如无匹配资源，将使用默认的英文。资源文件配置方位为：File--New Android XML File--ResourceType:Values--Select Region and Language</string>
+    <string name="scan_tips">将二维码图片对准扫描框即可自动扫描</string>
+
+    <string name="sel_date">请选择日期: %s</string>
+</resources>

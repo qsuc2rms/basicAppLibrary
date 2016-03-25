@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ptr-lib-listfragment">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BasicAppLib/libs/ptr-lib-listfragment.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.basicapplibdemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <supports-screens android:anyDensity="true" />
+
+    <application
+        android:name="com.example.basicapplibdemo.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launchernew"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.basicapplibdemo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.basicmodule.showlog.ShowLogActivity"
+            android:label="@string/item_showlog" >
+        </activity>
+        <activity
+            android:name="com.example.basicmodule.globalerr.ShowGlobalErrActivity"
+            android:label="@string/item_showglobalerr" >
+        </activity>
+        <activity
+            android:name="com.example.basicmodule.multilanguage.ShowMultiLanguageActivity"
+            android:label="@string/item_showmultilanguage" >
+        </activity>
+        <activity
+            android:name="com.example.communicatemodule.eventbus.EventBusActivity"
+            android:label="@string/item_showeventbus" >
+        </activity>
+        <activity
+            android:name="com.example.communicatemodule.eventbus.EventBusTriggerActivity"
+            android:label="@string/item_showeventbus" >
+        </activity>
+        <activity
+            android:name="com.example.commonmodule.gson.ShowGSONActivity"
+            android:label="@string/item_showgson" >
+        </activity>
+        <activity
+            android:name="com.example.commonmodule.qrscan.QRScanActivity"
+            android:label="@string/item_showqrscan" >
+        </activity>
+        <activity
+            android:name="com.example.communicatemodule.http.HttpActivity"
+            android:label="@string/item_showHttp" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.imageloader.LoadImageActivity"
+            android:label="@string/item_showloadimage" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.progressbar.ProgressbarActivity"
+            android:label="@string/item_showprogressbar" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.progressbar.CircleProgressbarTitleActivity"
+            android:label="@string/item_showprogressbar" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.progressbar.HorizontalProgressbarTitleActivity"
+            android:label="@string/item_showprogressbar" >
+        </activity>
+        <activity
+            android:name="com.example.commonmodule.update.UpdateActivity"
+            android:label="@string/item_showupdate" >
+        </activity>
+        <activity
+            android:name="com.example.communicatemodule.netstate.NetStateActivity"
+            android:label="@string/item_shownetstatus" >
+        </activity>
+        <activity
+            android:name="com.example.communicatemodule.uploadfile.UploadFileActivity"
+            android:label="@string/item_showfileupload" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.cropper.CropperActivity"
+            android:label="@string/item_showcrop" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.special.SpecialUIActivity"
+            android:label="@string/item_showspecialui" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.calendar.ShowCalendar"
+            android:label="@string/item_showcalendar" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.badge.ShowBadge"
+            android:label="@string/item_showbadge" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.horicards.ActivityHoriCards"
+            android:label="@string/item_showhori" >
+        </activity>
+
+        <!-- 绘制拖拽刷新 -->
+        <activity
+            android:name="com.example.uimodule.pulltorefresh.LauncherActivity"
+            android:label="PtR Launcher" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.pulltorefresh.PullToRefreshListActivity"
+            android:label="PtR ListView" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.pulltorefresh.PullToRefreshListFragmentActivity"
+            android:label="PtR ListView Fragment" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.pulltorefresh.PullToRefreshListInViewPagerActivity"
+            android:label="PtR ListView in ViewPager" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.pulltorefresh.PullToRefreshGridActivity"
+            android:label="PtR GridView" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.pulltorefresh.PullToRefreshExpandableListActivity"
+            android:label="PtR ExpandableListView" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.pulltorefresh.PullToRefreshWebViewActivity"
+            android:label="PtR WebView" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.pulltorefresh.PullToRefreshScrollViewActivity"
+            android:label="PtR ScrollView" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.pulltorefresh.PullToRefreshHorizontalScrollViewActivity"
+            android:label="PtR HorizontalScrollView" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.pulltorefresh.PullToRefreshViewPagerActivity"
+            android:label="PtR ViewPager" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.pulltorefresh.PullToRefreshWebView2Activity"
+            android:label="PtR WebView Advanced" >
+        </activity>
+
+        <!-- 绘制图表 -->
+        <activity
+            android:name="com.example.uimodule.charts.ChartsMainActivity"
+            android:label="@string/title_activity_line_chart" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.charts.LineChartActivity"
+            android:label="@string/title_activity_line_chart" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.charts.ColumnChartActivity"
+            android:label="@string/title_activity_column_chart" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.charts.PieChartActivity"
+            android:label="@string/title_activity_pie_chart" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.charts.BubbleChartActivity"
+            android:label="@string/title_activity_bubble_chart" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.charts.PreviewLineChartActivity"
+            android:label="@string/title_activity_preview_line_chart" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.charts.PreviewColumnChartActivity"
+            android:label="@string/title_activity_preview_column_chart" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.charts.ComboLineColumnChartActivity"
+            android:label="@string/title_activity_combo_line_column_chart" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.charts.LineColumnDependencyActivity"
+            android:label="@string/title_activity_line_column_dependency" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.charts.GoodBadChartActivity"
+            android:label="@string/title_activity_good_bad" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.charts.TempoChartActivity"
+            android:label="@string/title_activity_tempo_chart" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.charts.SpeedChartActivity"
+            android:label="@string/title_activity_speed_chart" >
+        </activity>
+        <activity
+            android:name="com.example.uimodule.charts.ViewPagerChartsActivity"
+            android:label="@string/title_activity_view_pager_charts" >
+        </activity>
+        <activity
+            android:name="com.example.basicapplibdemo.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+    </application>
+
+</manifest>

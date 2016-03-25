@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.harvic.try_eventbus_1.SecondActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_first_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Http Get百度页面" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="从百度首页get数据" />
+
+            <TextView
+                android:id="@+id/txt_get"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip" />
+
+            <Button
+                android:id="@+id/btn_second_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Http Post百度首页" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="post并获取返回值；post中可以重写Header、Params等，可以定义连接重试次数和等待时间" />
+
+            <TextView
+                android:id="@+id/txt_post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip" />
+
+            <Button
+                android:id="@+id/btn_third_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Http获取json" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="从国家气息局get北京市未来7天气象信息的json数据，可直接返回json数据" />
+
+            <TextView
+                android:id="@+id/txt_json"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLibDemo/src/main/res/layout/activity_showhttp.xml -->

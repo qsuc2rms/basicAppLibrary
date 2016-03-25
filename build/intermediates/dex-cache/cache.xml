@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-43c83182464af9d33e7a5c52fd4f9f01129fcde3.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4-fac319c6fb194dba311187eeeffe59cc8c709e1e.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\httpclient-4.3.5.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9783d89b8eea20a517a4afc5f979bd2882b54c44">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\httpclient-4.3.5-0f2a0919596afe852da329e86cddc539630473cd.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\android-logging-log4j-1.0.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b30d003f82e1e03a404e098533ec6c21eaf76f13">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\android-logging-log4j-1.0.3-79456863142f64855f01564ddafe5588cb3f18f3.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\ptrlibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="136d66ea5bc9ecfb264c0bb56bad6b45c8ae06f5">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\classes-d19dc09e23c70f7ba0122dd30a100f2f549ea415.jar" />
+    </item>
+    <item
+        jar="C:\Users\lilh8\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\gson-2.2.4-9b4c94587d4ea20f7d3739c054206a54ae5a76bc.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-5c29ff33f90c15650035d6d9061b8cbe3fa9c4a0.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\ormlite-android-4.35.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ad7be31bf77d40c2e77b6a50a824e540f1e80091">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\ormlite-android-4.35-967d1973d7b00edaa084931ec307a0d81abbcaaf.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="229544c24b2d56c9625f6776cda4a6a5c58a12c6">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\classes-414f68c2bb7acfc3c932b267ea04e49f6522984f.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\volley.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="119ef9a57b5365288a68dae9ae94c5535acabb04">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\volley-2befe311712a57a2f2cd389ed5041c662d8a7d83.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\xUtils-2.6.14-a9855481f954be1da4ea8f2a65a8ae3ac1e10b31.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\log4j-1.2.17.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4f90475694c41965c9a0c8bac53ea5c690dea446">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\log4j-1.2.17-f396ffcd7c7a782a6947c57b5aa6fb4604402c3c.jar" />
+    </item>
+    <item
+        jar="D:\Program Files\Android Studio SDK\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-ac7fe8cb230a7de031d704ffc59cf01b058a0775.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\hellocharts-library.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ef0ebd43978819bd761c4fd38863bd94079636a8">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\hellocharts-library-4a83dd1222989ad9ede44b55221c6e6c54727852.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\cropper.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e8cf6c60bcb648b0627bdf0810d882290e8bc275">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\cropper-c34a40c61fd10976d5596d0bccf698b42110742e.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\httpmime-4.3.5.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1dd0d38df9c6d21e893f2e52403f1cd99e91cd81">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\httpmime-4.3.5-57cf44654a6f29c83ac9a6010d71f9c920197790.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\ptr-lib-viewpager.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="72de902dc7a71a735e681df6907e7fa926f4704b">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\ptr-lib-viewpager-5ad7b4e3c5896d79ca48297b69cb472de18ee037.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\eventbus.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9a179701fef5778920c0471563bc1642e5df8217">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\eventbus-9382b189b5507e176eb4544b1a35cfb8efeca041.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\ormlite-core-4.35.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2d6042377a5b9ca91fe814b0080daea0ee802574">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\ormlite-core-4.35-7ab480331844be86c744059b0c935405a546aab1.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\classes-76116589dc48382ab60c0a7869de259bde43d508.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\ptr-lib-listfragment.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b82e7d3252363508bb8bbaa14ecaa93087fd434a">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\ptr-lib-listfragment-c2ecad19572e9a8d89d932226662cd5e791603ca.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\classes-03a4c2c10cf7984221065cdc30c1571f3b594e36.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\httpcore-4.3.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\httpcore-4.3.2-d61fc7584775e15be2bf4ad8c9f9aeaa1b61051c.jar" />
+    </item>
+    <item
+        jar="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\exploded-aar\BasicAppLibrary\BasicAppLib\unspecified\jars\libs\afilechooser.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="937ebd2e53a897df814c5767ab7e2e2bbcdfbbeb">
+        <dex dex="D:\code\workspaceAS\BasicAppLibrary\BasicAppLibDemo\build\intermediates\pre-dexed\debug\afilechooser-9e32c6d1e1340c4904713b50f35a6ac9c0932fb5.jar" />
+    </item>
+
+</items>

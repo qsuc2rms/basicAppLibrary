@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/code/workspaceAS/BasicAppLibrary/BasicAppLib/build/intermediates/bundles/debug/res/values/values.xml -->
+    <eat-comment/>
+    <color name="black_translucent">#50000000</color>
+    <color name="grid_bg">#FFFFFFFF</color>
+    <color name="grid_border">#FFC6C6C6</color>
+    <color name="reveal_color">#1b000000</color>
+    <color name="stroke">#dddddd</color>
+    <declare-styleable name="CropImageView"><attr name="guidelines"><enum name="on" value="2"/><enum name="onTouch" value="1"/><enum name="off" value="0"/></attr><attr format="boolean" name="fixAspectRatio"/><attr format="integer" name="aspectRatioX"/><attr format="integer" name="aspectRatioY"/><attr format="reference" name="imageResource"/></declare-styleable>
+    <declare-styleable name="MyImageView"><attr format="reference|string" name="Text"/><attr name="Oriental"><enum name="Horizontal" value="1"/><enum name="Vertical" value="0"/></attr><attr format="reference|integer" name="Src"/></declare-styleable>
+    <declare-styleable name="roundedimageview"><attr format="dimension" name="border_thickness"/><attr format="color" name="border_inside_color"/><attr format="color" name="border_outside_color"/></declare-styleable>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="date">Date</string>
+    <string name="dtpick_date">D</string>
+    <string name="dtpick_hour">H</string>
+    <string name="dtpick_minute">M</string>
+    <string name="dtpick_month">M</string>
+    <string name="dtpick_title">Please Set Date and Time</string>
+    <string name="dtpick_year">Y</string>
+    <string name="err_global">Error, We will fix it as soon as possible!</string>
+    <string name="err_network">Error, Network error!</string>
+    <string name="err_network_info">Network error, download failed!</string>
+    <string name="err_network_title">Error</string>
+    <string name="lib_name">BasicAppLib</string>
+    <string name="month">Month</string>
+    <string name="outoftime">Operation Out of Time!</string>
+    <string name="soft_update_cancel">Cancel</string>
+    <string name="soft_update_info">New version detected! Update now?</string>
+    <string name="soft_update_later">Update Later</string>
+    <string name="soft_update_no">This is the latest version!</string>
+    <string name="soft_update_title">Version Update</string>
+    <string name="soft_update_updatebtn">Update</string>
+    <string name="soft_updating">Updating</string>
+    <string name="year">Year</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CalendarCard"/>
+    <style name="CalendarCard.Cell">
+        <item name="android:background">@drawable/card_item_bg</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+    </style>
+    <style name="CalendarCard.Day">
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="CalendarCard.Days">
+        <item name="android:padding">0dp</item>
+    </style>
+    <style name="CalendarCard.Grid">
+        <item name="android:background">@drawable/card_grid_bg</item>
+        <item name="android:paddingRight">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
+    </style>
+    <style name="CalendarCard.Root">
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="CalendarCard.Title">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style mce_bogus="1" name="spinner_anim_dropdown" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+</resources>

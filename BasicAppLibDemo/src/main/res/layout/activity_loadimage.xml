@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.harvic.try_eventbus_1.SecondActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_imageloader_second_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="在线打开网络图片" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/img_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="由于使用了缓存技术，重复加载时，速度极快；另外，使用了离线本地缓存后，可以离线读取数据，可通过关闭手机网络进行测试" />
+
+                    <Button
+                        android:id="@+id/btn_imageloader_fourth_event"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="清除图片缓存" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="请注意，清除图片缓存前后，加载图片的速度明显不同" >
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_imageloader_third_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="监控图片加载状态" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/img_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="可以监控图片加载状态，并编写处理逻辑，此处以简单的Toast示例" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_imageloader_first_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="打开本地图片" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/img_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="可以加载手机本地图片文件，注意在代码中填写文件路径必须以 file:/// 开头" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_imageloader_fifth_event"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="打开App资源图片" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/img_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="可以加载App资源文件(图片)，注意在代码中填写文件路径必须以 drawable:// 开头" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

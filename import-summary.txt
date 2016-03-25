@@ -1,0 +1,120 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From BasicAppLib:
+* proguard-project.txt
+From BasicAppLibDemo:
+* ic_launcher-web.png
+* proguard-project.txt
+From ptr-library:
+* LICENSE
+* pom.xml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:20.0.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:20.0.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:20.0.0]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In BasicAppLib:
+* AndroidManifest.xml => BasicAppLib\src\main\AndroidManifest.xml
+* assets\ => BasicAppLib\src\main\assets
+* libs\afilechooser.jar => BasicAppLib\libs\afilechooser.jar
+* libs\android-logging-log4j-1.0.3.jar => BasicAppLib\libs\android-logging-log4j-1.0.3.jar
+* libs\armeabi\libzbar.so => BasicAppLib\src\main\jniLibs\armeabi\libzbar.so
+* libs\cropper.jar => BasicAppLib\libs\cropper.jar
+* libs\eventbus.jar => BasicAppLib\libs\eventbus.jar
+* libs\hellocharts-library.jar => BasicAppLib\libs\hellocharts-library.jar
+* libs\httpclient-4.3.5.jar => BasicAppLib\libs\httpclient-4.3.5.jar
+* libs\httpcore-4.3.2.jar => BasicAppLib\libs\httpcore-4.3.2.jar
+* libs\httpmime-4.3.5.jar => BasicAppLib\libs\httpmime-4.3.5.jar
+* libs\log4j-1.2.17.jar => BasicAppLib\libs\log4j-1.2.17.jar
+* libs\nineoldandroids-2.4.0.jar => BasicAppLib\libs\nineoldandroids-2.4.0.jar
+* libs\ormlite-android-4.35.jar => BasicAppLib\libs\ormlite-android-4.35.jar
+* libs\ormlite-core-4.35.jar => BasicAppLib\libs\ormlite-core-4.35.jar
+* libs\ptr-lib-listfragment.jar => BasicAppLib\libs\ptr-lib-listfragment.jar
+* libs\ptr-lib-viewpager.jar => BasicAppLib\libs\ptr-lib-viewpager.jar
+* libs\universal-image-loader-1.9.4.jar => BasicAppLib\libs\universal-image-loader-1.9.4.jar
+* libs\volley.jar => BasicAppLib\libs\volley.jar
+* libs\xUtils-2.6.14.jar => BasicAppLib\libs\xUtils-2.6.14.jar
+* lint.xml => BasicAppLib\lint.xml
+* res\ => BasicAppLib\src\main\res\
+* src\ => BasicAppLib\src\main\java\
+In ptr-library:
+* AndroidManifest.xml => ptrlibrary\src\main\AndroidManifest.xml
+* assets\ => ptrlibrary\src\main\assets
+* res\ => ptrlibrary\src\main\res\
+* src\ => ptrlibrary\src\main\java\
+In BasicAppLibDemo:
+* AndroidManifest.xml => BasicAppLibDemo\src\main\AndroidManifest.xml
+* assets\ => BasicAppLibDemo\src\main\assets\
+* res\ => BasicAppLibDemo\src\main\res\
+* src\ => BasicAppLibDemo\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

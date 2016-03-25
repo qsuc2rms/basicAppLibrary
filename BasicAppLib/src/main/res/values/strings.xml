@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="lib_name">BasicAppLib</string>
+    <string name="dtpick_title">Please Set Date and Time</string>
+    <string name="dtpick_year">Y</string>
+    <string name="dtpick_month">M</string>
+    <string name="dtpick_date">D</string>
+    <string name="dtpick_hour">H</string>
+    <string name="dtpick_minute">M</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="date">Date</string>
+    <string name="err_global">Error, We will fix it as soon as possible!</string>
+    <string name="err_network">Error, Network error!</string>
+    <string name="err_network_title">Error</string>
+    <string name="err_network_info">Network error, download failed!</string>
+    <string name="soft_update_no">This is the latest version!</string>
+    <string name="soft_update_title">Version Update</string>
+    <string name="soft_update_info">New version detected! Update now?</string>
+    <string name="soft_update_updatebtn">Update</string>
+    <string name="soft_update_later">Update Later</string>
+    <string name="soft_updating">Updating</string>
+    <string name="soft_update_cancel">Cancel</string>
+    <string name="outoftime">Operation Out of Time!</string>
+
+</resources>
